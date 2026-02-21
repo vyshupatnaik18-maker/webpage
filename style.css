@@ -213,7 +213,9 @@ transform:scale(1.1) rotate(0deg);
 
 .polaroid img {
   width: 100%;
-  height: 16px;
+  max-width:300px;
+  height: auto;
+    display:block;
   object-fit: cover;
 }
 /* CENTER GIFT SLIDE CONTENT */
@@ -241,6 +243,7 @@ body
 hi{
     font-size:6vw;
 }
+
 
 
 
